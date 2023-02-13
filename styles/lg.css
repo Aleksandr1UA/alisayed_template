@@ -1,0 +1,97 @@
+@media screen and (max-width: 1120px) {
+  header {
+    grid-template-columns: 100%;
+  }
+  header .header_first-block {
+    position: relative;
+    background-color: #262f32;
+  }
+  header .header_second-block {
+    position: absolute;
+    height: inherit;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: end;
+    padding-left: 10px;
+    padding-right: 50px;
+    background-color: transparent;
+    -webkit-animation: appearance 2s ease-in-out;
+            animation: appearance 2s ease-in-out;
+  }
+  header .header_second-block .header_menu div {
+    background-color: #ffffff;
+  }
+  header .header_second-block h1, header .header_second-block p {
+    color: #ffffff;
+  }
+  @-webkit-keyframes appearance {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0.25;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    75% {
+      opacity: 0.75;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes appearance {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0.25;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    75% {
+      opacity: 0.75;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer_left-block, footer .footer_right-block {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  footer .footer_left-block div div, footer .footer_right-block div div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  footer .footer_left-block div div a, footer .footer_right-block div div a {
+    margin: 0px;
+  }
+  footer .footer_left-block {
+    background-position: center;
+  }
+  footer .footer_right-block h2 {
+    margin-bottom: 20px;
+  }
+  footer .footer_right-block form div {
+    display: flex;
+  }
+  footer .footer_right-block form div input {
+    width: 50%;
+  }
+  footer .footer_right-block form textarea {
+    width: 100%;
+  }
+}/*# sourceMappingURL=lg.css.map */

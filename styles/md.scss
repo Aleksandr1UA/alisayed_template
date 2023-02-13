@@ -1,0 +1,14 @@
+@media screen and (max-width: 920px) {
+    header {
+        max-height: 715px;
+
+        .header_first-block {
+            background-position: center;
+            background-size: cover;
+        }
+
+        .header_second-block {
+            //max-height: inherit;
+        }
+    }
+}

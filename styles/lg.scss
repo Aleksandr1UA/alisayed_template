@@ -1,0 +1,100 @@
+@media screen and (max-width: 1120px) {
+    header {
+        grid-template-columns: 100%;
+
+        .header_first-block {
+            position: relative;
+            background-color: #262f32;
+        }
+
+        .header_second-block {
+            position: absolute;
+            height: inherit;
+            justify-content: space-around;
+            align-items: flex-end;
+            text-align: end;
+            padding-left: 10px;
+            padding-right: 50px;
+            background-color: transparent;
+            animation: appearance 2s ease-in-out;
+             
+            .header_menu {
+                div{
+                    background-color: #ffffff;
+                }
+            }
+
+            h1, p {
+                color: #ffffff;
+            }
+
+            @keyframes appearance {
+                0% {
+                    opacity: 0;
+                }
+                25% {
+                    opacity: 0.25;
+                }
+                50% {
+                    opacity: 0.5;
+                }
+                75% {
+                    opacity: 0.75;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+
+        .footer_left-block, .footer_right-block {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+
+            div {
+                div {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+
+                    a {
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+
+        .footer_left-block {
+            background-position: center;
+        }
+
+        .footer_right-block {
+            h2 {
+                margin-bottom: 20px;
+            }
+            form {
+                div {
+                    display: flex;
+
+                    input {
+                        width: 50%;
+                    }
+                }
+                textarea {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

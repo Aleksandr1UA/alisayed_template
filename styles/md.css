@@ -1,0 +1,9 @@
+@media screen and (max-width: 920px) {
+  header {
+    max-height: 715px;
+  }
+  header .header_first-block {
+    background-position: center;
+    background-size: cover;
+  }
+}/*# sourceMappingURL=md.css.map */
